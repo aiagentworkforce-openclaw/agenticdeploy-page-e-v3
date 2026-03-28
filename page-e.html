@@ -456,15 +456,15 @@ footer {
 }
 
 /* ===== REVEAL ANIMATION (intersection observer) ===== */
-.reveal {
+.reveal-anim {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s cubic-bezier(0.25,0.8,0.25,1), transform 0.6s cubic-bezier(0.25,0.8,0.25,1);
 }
-.reveal.visible { opacity: 1; transform: none; }
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-anim.visible { opacity: 1; transform: none; }
+.reveal-anim.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-anim.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-anim.reveal-delay-3 { transition-delay: 0.3s; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 640px) {
@@ -526,7 +526,7 @@ footer {
 <!-- HERO VISUAL -->
 <section class="section" style="padding-top:0; padding-bottom:1.5rem;">
   <div class="container">
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-e/hero-deploy-timeline-v2.png" alt="AI Workforce deployment timeline">
     </div>
   </div>
@@ -537,7 +537,7 @@ footer {
 <!-- PROBLEM -->
 <section class="section">
   <div class="container">
-    <div class="copy-block reveal">
+    <div class="copy-block reveal-anim">
       <h2>You have a real business. Real revenue. Real customers.</h2>
       <p style="margin-top:1rem;">But you're doing too much of the work yourself.</p>
       <p>Every time you try to scale, it means more people, more overhead, and more of your personal time. The ceiling keeps moving — and it always moves with you.</p>
@@ -551,8 +551,8 @@ footer {
 <!-- AGITATE -->
 <section class="section">
   <div class="container">
-    <div class="pull-quote reveal">"Every hire grows your revenue and compresses your margin. Every task you delegate still runs through you. The bottleneck is always the same person."</div>
-    <div class="copy-block reveal">
+    <div class="pull-quote reveal-anim">"Every hire grows your revenue and compresses your margin. Every task you delegate still runs through you. The bottleneck is always the same person."</div>
+    <div class="copy-block reveal-anim">
       <p>You've tried hiring. You've tried automation tools. You've tried doing more with less.</p>
       <p>None of it changed the fundamental problem: your business depends on you being in the middle of everything.</p>
       <p>McKinsey has deployed 25,000 AI workers alongside 40,000 human employees. Nvidia is targeting 100 AI workers for every human on their team. 62% of organizations are actively deploying AI workforces right now.</p>
@@ -566,7 +566,7 @@ footer {
 <!-- STATS + VISUAL -->
 <section class="section">
   <div class="container">
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-e/enterprise-adoption.png" alt="Enterprise AI workforce adoption">
     </div>
     <div class="stats-grid">
@@ -592,13 +592,13 @@ footer {
 <section class="section">
   <div class="container">
     <span class="tagline">What You Get</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:1rem;">A complete AI workforce. Built for your business. Deployed in 14 days.</h2>
-    <div class="copy-block reveal">
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:1rem;">A complete AI workforce. Built for your business. Deployed in 14 days.</h2>
+    <div class="copy-block reveal-anim">
       <p>AgenticDeploy doesn't sell you software. We deploy a team.</p>
       <p>A Chief of Staff AI worker coordinates your entire operation. Under it, specialized workers handle marketing, content, operations, customer communication, follow-up, and reporting.</p>
       <p>They work in your voice. On your schedule. With your tools. 24 hours a day, 7 days a week.</p>
     </div>
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-e/workforce-org-chart.png" alt="AI Workforce org chart">
     </div>
   </div>
@@ -610,7 +610,7 @@ footer {
 <section class="section">
   <div class="container">
     <span class="tagline">How It Works</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:1.25rem;">Three steps. 14 days. Your workforce is live.</h2>
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:1.25rem;">Three steps. 14 days. Your workforce is live.</h2>
     <div class="steps">
       <div class="step-card reveal reveal-delay-1">
         <span class="step-num">01</span>
@@ -643,8 +643,8 @@ footer {
 <section class="section">
   <div class="container">
     <span class="tagline">The Math</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:1rem;">You're spending $15K–$30K/month on work AI workers handle for $997.</h2>
-    <div class="copy-block reveal">
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:1rem;">You're spending $15K–$30K/month on work AI workers handle for $997.</h2>
+    <div class="copy-block reveal-anim">
       <p>Add up what you're spending on team members, VAs, contractors, and agencies doing operational and administrative work.</p>
       <p>Now imagine replacing 70% of that output with AI workers that work 24/7, never drop the ball, and cost a fraction of what you're paying.</p>
       <p>Not a pitch. The math.</p>
@@ -667,7 +667,7 @@ footer {
         <div class="compare-item">Scales instantly, no overhead</div>
       </div>
     </div>
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-e/cost-comparison.png" alt="Traditional staffing vs AI workforce cost">
     </div>
   </div>
@@ -679,7 +679,7 @@ footer {
 <section class="section">
   <div class="container">
     <span class="tagline">What Your AI Workforce Handles</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:1.25rem;">Everything that's eating your day.</h2>
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:1.25rem;">Everything that's eating your day.</h2>
     <div class="feature-grid">
       <div class="feature-card reveal reveal-delay-1"><span class="feat-icon">⚡</span> Lead response &amp; follow-up within 60 seconds, 24/7</div>
       <div class="feature-card reveal reveal-delay-1"><span class="feat-icon">📧</span> Email sequences, nurture campaigns &amp; reactivation</div>
@@ -700,13 +700,13 @@ footer {
 <!-- COMPETITIVE ADVANTAGE -->
 <section class="section">
   <div class="container">
-    <div class="copy-block reveal">
+    <div class="copy-block reveal-anim">
       <h2>The window for early AI workforce deployment is open. For now.</h2>
       <p style="margin-top:1rem;">There's a moment in every major technology shift when early movers build advantages that become permanent.</p>
       <p>We're in that moment right now. Not next year. Now.</p>
       <p>The businesses deploying AI workforces in the next 12 months will build operational advantages that late movers can't close.</p>
     </div>
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-d/competitive-advantage.png" alt="AI-powered businesses pulling ahead">
     </div>
   </div>
@@ -717,7 +717,7 @@ footer {
 <!-- PRICING -->
 <section class="section">
   <div class="container">
-    <div class="pricing-card reveal">
+    <div class="pricing-card reveal-anim">
       <span class="tagline">Investment</span>
       <div class="price-main" style="margin-top:0.75rem;">$5,000 one-time deployment</div>
       <div class="price-sub">+ $997/month ongoing management &amp; optimization</div>
@@ -736,12 +736,12 @@ footer {
 <section class="section">
   <div class="container">
     <span class="tagline">After Deployment</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:1rem;">Your AI workforce gets better every week.</h2>
-    <div class="copy-block reveal">
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:1rem;">Your AI workforce gets better every week.</h2>
+    <div class="copy-block reveal-anim">
       <p>This isn't a set-it-and-forget-it tool. Your workforce is actively managed, optimized, and expanded as your business grows.</p>
       <p>New capabilities. Better performance. More capacity. Every month.</p>
     </div>
-    <div class="visual-block visual-float reveal">
+    <div class="visual-block visual-float reveal-anim">
       <img src="images/page-b/client-journey.png" alt="Ongoing optimization journey">
     </div>
   </div>
@@ -753,9 +753,9 @@ footer {
 <section class="section" style="text-align:center; padding-bottom:3rem;">
   <div class="container">
     <span class="tagline">Intelligence, Deployed.</span>
-    <h2 class="reveal" style="margin-top:0.5rem; margin-bottom:0.75rem;">Ready to deploy your AI workforce?</h2>
-    <p class="reveal" style="margin: 0 auto 1.75rem; text-align:center;">Book a 15-minute call and see exactly what your AI workforce looks like inside your specific business.</p>
-    <div class="btn-group reveal">
+    <h2 class="reveal-anim" style="margin-top:0.5rem; margin-bottom:0.75rem;">Ready to deploy your AI workforce?</h2>
+    <p class="reveal-anim" style="margin: 0 auto 1.75rem; text-align:center;">Book a 15-minute call and see exactly what your AI workforce looks like inside your specific business.</p>
+    <div class="btn-group reveal-anim">
       <a href="#book" class="btn btn-primary">&#9654; Book a 15-Minute Demo</a>
       <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
     </div>
@@ -768,7 +768,7 @@ footer {
 
 <script>
 // ===== INTERSECTION OBSERVER REVEAL =====
-const revealEls = document.querySelectorAll('.reveal');
+const revealEls = document.querySelectorAll('.reveal-anim');
 const obs = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting) {
