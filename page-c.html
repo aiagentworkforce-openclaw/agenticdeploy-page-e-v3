@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AgenticDeploy — AI Workforce for Webinar Businesses</title>
+<link rel="stylesheet" href="css/shared.css">
+<style>
+  .hero-glow { position: relative; }
+  .hero-glow::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+    z-index: -1;
+    animation: pulseGlow 4s ease-in-out infinite;
+  }
+  @keyframes pulseGlow {
+    0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+  }
+  .funnel-stages {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin: 2.5rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .funnel-stage {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem 1.5rem;
+    border-left: 3px solid var(--border);
+    position: relative;
+  }
+  .funnel-stage::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: var(--border);
+  }
+  .funnel-stage.active { border-left-color: var(--accent); }
+  .funnel-stage.active::before { background: var(--accent); }
+  .funnel-stage-label { font-weight: 600; color: var(--near-black); min-width: 120px; }
+  .funnel-stage-desc { font-size: 0.9375rem; color: var(--secondary); }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero hero-glow">
+  <div class="container">
+    <span class="tagline fade-in">For Webinar Experts + Knowledge Businesses</span>
+    <h1 class="fade-in fade-in-delay">You Are Getting the Registrations. You Are Losing Them Between Sign-Up and Show-Up.</h1>
+    <p class="subheadline fade-in fade-in-delay-2">AgenticDeploy deploys an AI workforce that maximizes webinar attendance, converts no-shows into buyers, and keeps your funnel running 24/7.</p>
+    <div class="cta-group fade-in fade-in-delay-2">
+      <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+      <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <h2>You spent money on ads. You got the registrations. And then 60% of them did not show up.</h2>
+      <p>That is not a traffic problem. That is a follow-up problem.</p>
+      <p>Between registration and show time, most businesses send a couple of generic reminders and hope for the best. Meanwhile, your registrants are getting pulled in a dozen directions. They forget. They lose interest. They find something else.</p>
+      <p>Every empty seat was a paying customer you already had in the door.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FUNNEL VISUAL -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="visual-block fade-in">
+      <img src="images/page-c/funnel-optimization-v2.png" alt="Webinar funnel with optimization at every stage">
+    </div>
+    <div class="stats-row fade-in">
+      <div class="stat">
+        <span class="stat-number" data-count="60" data-suffix="%">0</span>
+        <span class="stat-label">average no-show rate on webinars</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" data-count="50" data-suffix="%+">0</span>
+        <span class="stat-label">of sales happen in post-webinar follow-up</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOW-UP RATE -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <span class="tagline">Pre-Webinar</span>
+      <h2>Your AI workforce builds anticipation, not just reminders.</h2>
+      <p>Your operations worker manages the entire pre-webinar experience. Confirmation sequences. Content teasers that give value before the event. Personalized reminders. Day-of messages that build excitement instead of just saying "don't forget."</p>
+      <p>When your registrants feel invested before they sit down, they show up. And they stay.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-c/showup-improvement.png" alt="Improving webinar show-up rates through intelligent pre-event nurture">
+    </div>
+  </div>
+</section>
+
+<!-- POST-WEBINAR -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="pull-quote fade-in">"The webinar ends. The sales do not have to."</div>
+    <div class="copy-block fade-in">
+      <h2>Most sales happen after the webinar. Most businesses leave them on the table.</h2>
+      <p>What about the 50 people who watched the replay and never decided? The 30 who showed up but left early? The 20 who registered and never attended?</p>
+      <p>Your operations and content workers build segmented post-webinar sequences based on behavior. Who attended. Who watched the replay. Who engaged. Who dropped off. Every segment gets follow-up that speaks directly to where they are.</p>
+    </div>
+    <div class="funnel-stages fade-in">
+      <div class="funnel-stage active">
+        <span class="funnel-stage-label">Attended live</span>
+        <span class="funnel-stage-desc">Personalized offer + urgency sequence</span>
+      </div>
+      <div class="funnel-stage active">
+        <span class="funnel-stage-label">Watched replay</span>
+        <span class="funnel-stage-desc">Value recap + objection handling</span>
+      </div>
+      <div class="funnel-stage active">
+        <span class="funnel-stage-label">Partial view</span>
+        <span class="funnel-stage-desc">Key moments highlight + re-engagement</span>
+      </div>
+      <div class="funnel-stage active">
+        <span class="funnel-stage-label">No-show</span>
+        <span class="funnel-stage-desc">Replay access + alternate content path</span>
+      </div>
+      <div class="funnel-stage active">
+        <span class="funnel-stage-label">Registered only</span>
+        <span class="funnel-stage-desc">Nurture sequence + next event invite</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALWAYS-ON -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <span class="tagline">Between Launches</span>
+      <h2>Your webinar funnel should be running 24/7. Is it?</h2>
+      <p>Between launches, your funnel is basically off. Your email list goes quiet. Your ad spend drops. Your team shifts focus. And when you rev it back up next month, you are starting from cold again.</p>
+      <p>Your AI workforce runs your evergreen promotional engine. Social content, email sequences, retargeting content, and follow-up. Continuously between launches. So your next launch starts warm.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-c/always-on-system.png" alt="24/7 automated webinar funnel system">
+    </div>
+  </div>
+</section>
+
+<!-- OPTIMIZATION -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <h2>What if your webinar converted 20% better without changing your presentation?</h2>
+      <p>Your CMO worker monitors funnel performance and identifies weak points. Your content worker implements optimizations. Your operations worker runs the tests.</p>
+      <p>The funnel gets better every week. Without you personally managing any of it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SCALE -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <span class="tagline">Scale</span>
+      <h2>Go from one webinar a month to one a week. Without adding a single person.</h2>
+      <p>Your webinar works. You have proven it converts. The path to more revenue is clear: run it more often, reach more people, convert more buyers.</p>
+      <p>Your AI workforce manages everything that scales with volume: registration management, promotional sequences, attendee communications, post-event follow-up, and performance reporting. Across every run, automatically.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section section-alt">
+  <div class="container">
+    <span class="tagline fade-in">What Your AI Workforce Handles</span>
+    <h2 class="fade-in" style="margin-bottom: 2rem;">Every stage of your webinar operation.</h2>
+    <ul class="feature-list fade-in">
+      <li>Pre-webinar nurture sequences that build anticipation</li>
+      <li>Personalized reminders timed for maximum show-up</li>
+      <li>Post-webinar follow-up segmented by attendee behavior</li>
+      <li>Replay sequences for no-shows and partial viewers</li>
+      <li>Cart abandonment and objection handling sequences</li>
+      <li>Evergreen promotional content between launches</li>
+      <li>Funnel performance monitoring and optimization</li>
+      <li>Registration management across multiple events</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section">
+  <div class="container">
+    <div class="pricing-block fade-in">
+      <span class="tagline">Investment</span>
+      <div class="price-main">$5,000 one-time deployment</div>
+      <div class="price-sub">+ $997/month ongoing management</div>
+      <div class="price-note" style="margin-top: 1rem;">Your funnel works harder. Your show-up rate climbs. Your cost per acquisition drops.</div>
+      <div class="cta-group" style="margin-top: 2rem; margin-bottom: 0;">
+        <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+        <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section section-alt">
+  <div class="container" style="text-align: center;">
+    <span class="tagline fade-in">Intelligence, Deployed.</span>
+    <h2 class="fade-in" style="margin-bottom: 1rem;">See how the show-up problem gets solved.</h2>
+    <p class="fade-in" style="margin: 0 auto 2rem; text-align: center;">Book a 15-minute demo and we will map your webinar funnel together.</p>
+    <div class="cta-group fade-in">
+      <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+      <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 AgenticDeploy. Intelligence, Deployed.</p>
+</footer>
+
+<script src="js/animations.js"></script>
+</body>
+</html>

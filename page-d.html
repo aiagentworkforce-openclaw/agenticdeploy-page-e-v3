@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>AgenticDeploy — AI Workforce for Agency Owners</title>
+<link rel="stylesheet" href="css/shared.css">
+<style>
+  .hero-glow { position: relative; }
+  .hero-glow::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+    z-index: -1;
+    animation: pulseGlow 4s ease-in-out infinite;
+  }
+  @keyframes pulseGlow {
+    0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
+    50% { opacity: 1; transform: translate(-50%, -50%) scale(1.1); }
+  }
+  .scenario-block {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+  }
+  .scenario-block h4 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+  .scenario-block p {
+    font-size: 0.9375rem;
+    margin-bottom: 0.5rem;
+  }
+  .margin-visual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  .margin-card {
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  .margin-card h4 {
+    font-family: var(--font-heading);
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+  .margin-card .big-num {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  .margin-card.old { background: var(--bg-subtle); }
+  .margin-card.old h4 { color: var(--secondary); }
+  .margin-card.old .big-num { color: var(--secondary); }
+  .margin-card.new { background: var(--accent-light); border-color: var(--accent); }
+  .margin-card.new h4 { color: var(--accent); }
+  .margin-card.new .big-num { color: var(--accent); }
+  @media (max-width: 640px) { .margin-visual { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero hero-glow">
+  <div class="container">
+    <span class="tagline fade-in">For Agency Owners</span>
+    <h1 class="fade-in fade-in-delay">You Built a Great Agency. Now Build the System That Runs It Without You.</h1>
+    <p class="subheadline fade-in fade-in-delay-2">AgenticDeploy installs an AI workforce into your agency that handles client communication, deliverable coordination, reporting, and follow-up. So you focus on landing clients instead of servicing them.</p>
+    <div class="cta-group fade-in fade-in-delay-2">
+      <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+      <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM: BOTTLENECK -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <h2>Every time you try to step back from day-to-day operations, something falls apart.</h2>
+      <p>A client does not get a status update. A deliverable goes out without a quality check. A meeting gets missed. And it all runs back through you again.</p>
+      <p>You have built a great agency. But you are also its biggest bottleneck. Everything routes through you. Strategy, QA, client calls, delivery. And the more clients you take on, the worse it gets.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-d/agency-bottleneck-transform.png" alt="Before: chaos routing through one person. After: AI coordination layer managing operations cleanly.">
+    </div>
+  </div>
+</section>
+
+<!-- MARGIN COMPRESSION -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <span class="tagline">The Scaling Trap</span>
+      <h2>Every new hire grows your revenue and compresses your margin. There is a better way.</h2>
+      <p>You have run the numbers. To grow from $1M to $2M, you would need 3 more people. Three more salaries. Three more sets of management overhead.</p>
+      <p>And at the end of it, your take-home might not change at all.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-d/margin-compression.png" alt="Revenue growing while margins compress with each hire">
+    </div>
+    <div class="margin-visual fade-in">
+      <div class="margin-card old">
+        <h4>Traditional Scaling</h4>
+        <span class="big-num">3 new hires</span>
+        <p style="font-size: 0.875rem; color: var(--secondary);">$180K+ additional overhead<br>More management time<br>Same take-home</p>
+      </div>
+      <div class="margin-card new">
+        <h4>With AI Workforce</h4>
+        <span class="big-num">$997/mo</span>
+        <p style="font-size: 0.875rem; color: var(--secondary);">Same output capacity<br>Zero management overhead<br>Margin preserved</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENT RETENTION -->
+<section class="section">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <h2>Your clients do not leave because of bad work. They leave because of bad communication.</h2>
+      <p>Agency churn is rarely about the quality of the work. It is about the experience around it.</p>
+      <p>Late updates. Slow responses. Missed check-ins. Clients feel ignored even when your team is working hard.</p>
+      <p>Your operations worker manages the full client communication layer. Weekly updates, deliverable notifications, QA reminders, and proactive outreach when something is running behind. So clients always feel informed without your team manually managing each touchpoint.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROPOSAL AUTOMATION -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="copy-block fade-in">
+      <span class="tagline">New Business</span>
+      <h2>You should be closing proposals, not writing them.</h2>
+      <p>Every new prospect means another proposal. Another 3 to 5 hours of research, writing, formatting, and sending. And you close maybe a third of them.</p>
+      <p>Your operations worker generates complete, customized proposals using your templates and the prospect's information. Branded, formatted, and ready to send in under 15 minutes. You review and send.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-d/proposal-automation.png" alt="Automated proposal generation in minutes, not hours">
+    </div>
+  </div>
+</section>
+
+<!-- AI THREAT -->
+<section class="section">
+  <div class="container">
+    <div class="pull-quote fade-in">"AI is coming for what your agency does. The smart agencies are using it before it uses them."</div>
+    <div class="copy-block fade-in">
+      <p>Your clients are asking about AI. Your competitors are pitching AI-powered services. And somewhere, a newer agency with lower overhead is doing what your team does. Faster and cheaper.</p>
+      <p>This is not a trend you can ignore and hope goes away.</p>
+      <p>AgenticDeploy gives your agency the same AI infrastructure that enterprise agencies are building. Without the 6-month build timeline or the $200K development cost. Deploy in 14 days. Immediately deliver work faster, at higher quality, with less manual effort from your team.</p>
+    </div>
+    <div class="visual-block fade-in">
+      <img src="images/page-d/competitive-advantage.png" alt="AI-augmented agency outpacing traditional competitors">
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section section-alt">
+  <div class="container">
+    <span class="tagline fade-in">What Your AI Workforce Handles</span>
+    <h2 class="fade-in" style="margin-bottom: 2rem;">The coordination layer eating your margin.</h2>
+    <ul class="feature-list fade-in">
+      <li>Client communication: status updates, check-ins, deliverable notifications</li>
+      <li>Project coordination and deadline management</li>
+      <li>Proposal generation from templates in under 15 minutes</li>
+      <li>Reporting: weekly client reports and internal dashboards</li>
+      <li>Content repurposing for client deliverables</li>
+      <li>Client onboarding sequences and QA checklists</li>
+      <li>Proactive outreach when deliverables are at risk</li>
+      <li>New business follow-up and pipeline management</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section">
+  <div class="container">
+    <div class="pricing-block fade-in">
+      <span class="tagline">Investment</span>
+      <div class="price-main">$5,000 one-time deployment</div>
+      <div class="price-sub">+ $997/month ongoing management</div>
+      <div class="price-note" style="margin-top: 1rem;">Take on more clients. Keep your margin. Stop being the bottleneck.</div>
+      <div class="cta-group" style="margin-top: 2rem; margin-bottom: 0;">
+        <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+        <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section section-alt">
+  <div class="container" style="text-align: center;">
+    <span class="tagline fade-in">Intelligence, Deployed.</span>
+    <h2 class="fade-in" style="margin-bottom: 1rem;">See what an agency AI workforce looks like.</h2>
+    <p class="fade-in" style="margin: 0 auto 2rem; text-align: center;">Book a demo call. We will show you how AI workers fit inside your specific agency operation.</p>
+    <div class="cta-group fade-in">
+      <a href="#book" class="btn btn-primary">Book a 15-Minute Demo</a>
+      <a href="#text" class="btn btn-secondary">Text an AI Worker Now</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 AgenticDeploy. Intelligence, Deployed.</p>
+</footer>
+
+<script src="js/animations.js"></script>
+</body>
+</html>
